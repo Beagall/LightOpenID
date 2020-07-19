@@ -470,8 +470,8 @@ class LightOpenID
             }
             
             if (!$use_curl) {
-                # With open_basedir or safe_mode set, cURL can't follow redirects.
-                $use_curl = !(ini_get('safe_mode') || ini_get('open_basedir'));
+                # With open_basedir set, cURL can't follow redirects.
+                $use_curl = !ini_get('open_basedir');
             }
         }
         
