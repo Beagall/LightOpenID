@@ -1,5 +1,10 @@
 # LightOpenID Change Log
 
+## v1.3.2 (July 19, 2020)
+
+`fix` Removed get_magic_quotes_gpc() function, since it is now deprecated.
+`fix` Removed check for safe mode, which has been removed from PHP.
+
 ## v1.3.1 (March 04, 2016)
 
 `fix` Fixed an incorrect function call to get_provider_name().  

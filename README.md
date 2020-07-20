@@ -6,9 +6,9 @@
 
 Lightweight PHP5 library for easy OpenID authentication.
 
-* `Version....:` [**1.3.1** :arrow_double_down:][1]
+* `Version....:` [**1.3.2** :arrow_double_down:][1]
                  ( *see [the change log][2] for details* )
-* `Released on:` March 04, 2016
+* `Released on:` July 19, 2020
 * `Source code:` [Official GitHub Repo :octocat:][3]
 * `Homepage...:` http://code.google.com/p/lightopenid/
 * `Author.....:` [Mewp][4]
@@ -27,13 +27,12 @@ Lightweight PHP5 library for easy OpenID authentication.
 "repositories": [
   {
     "type": "vcs",
-    "url": "https://github.com/iignatov/LightOpenID"
+    "url": "https://github.com/Beagall/LightOpenID"
   }
 ],
 
-"require": {	
-  "php": ">=5.4.0",
-  "iignatov/lightopenid": "*"
+"require": {
+  "Beagall/lightopenid": "*"
 }
 ```
 
@@ -76,7 +75,7 @@ Lightweight PHP5 library for easy OpenID authentication.
   $openid->getAttributes();
   ```
 
-  For more information see [USAGE.md](http://github.com/iignatov/LightOpenID/blob/master/USAGE.md).
+  For more information see [USAGE.md](http://github.com/Beagall/LightOpenID/blob/master/USAGE.md).
 
 
 ## Requirements
@@ -107,6 +106,6 @@ This library requires PHP >= 5.1.2 with cURL or HTTP/HTTPS stream wrappers enabl
 
 ## License
 
-[LightOpenID](http://github.com/iignatov/LightOpenID)
+[LightOpenID](http://github.com/Beagall/LightOpenID)
 is an open source software available under the
 [MIT License](http://opensource.org/licenses/mit-license.php).
