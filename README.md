@@ -1,6 +1,6 @@
 > **NOTICE**
 
-> I am no longer able to support or maintain this project - if you would like to take over the project, please drop me a line.
+> This is a fork of https://github.com/iignatov/LightOpenID which is no longer maintained. It has a couple of minor fixes applied to it for compatibilty with PHP 7.4.
 
 # LightOpenID
 
